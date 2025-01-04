@@ -105,4 +105,9 @@ Accéder à ArgoCD via `https://localhost:8080`
 ### 7. Synchronisation et Mises à Jour
 - ArgoCD déploie automatiquement les modifications poussées sur Git.
 
+### 8. Captures d’écran
+ captures d’écran de l’interface ArgoCD montrant les applications
+ synchronisées.
+ 
+![Captures d’écran](screenshot.png)
 
