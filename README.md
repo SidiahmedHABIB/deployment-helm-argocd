@@ -1,8 +1,5 @@
 # TP5 : Déploiement d'Applications avec Helm Charts et ArgoCD
 
-## Description
-Ce TP porte sur le déploiement d'une application MERN (MongoDB, Express, React, Node.js) en utilisant Helm Charts et ArgoCD pour une intégration et déploiement continus (CI/CD) sur Kubernetes.
-
 ## Objectifs
 - Créer des Helm Charts pour les services de l'application MERN (MongoDB, serveur, client).
 - Configurer et déployer ArgoCD pour la gestion des déploiements.
@@ -13,7 +10,7 @@ Ce TP porte sur le déploiement d'une application MERN (MongoDB, Express, React,
 - Helm installé (v3+).
 - kubectl configuré.
 - Docker pour la construction des images.
-- Compte GitHub/GitLab.
+- Compte GitHub.
 
 ## Structure du Projet
 ```
@@ -33,10 +30,6 @@ mern-charts/
 |   |-- templates/
 |   |-- values.yaml
 ```
-
-## Description du Projet
-L'application MERN est déployée sous forme de plusieurs services (frontend, backend, base de données). Le déploiement est automatisé et géré à l'aide d'ArgoCD. 
-
 
 ### 2. Création des Charts Helm
 1. MongoDB 
